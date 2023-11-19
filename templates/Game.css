@@ -255,3 +255,90 @@ textarea{
   height: 30px;
 
 }
+
+
+
+
+
+  
+@media screen and (max-width: 600px){
+  .logo{
+    height:50PX;
+    width:85px;
+    margin-left: 40px;
+  }
+
+  #main span{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .TextProblem{
+    width:70%;
+    font-size: 17px;
+    font-weight: 400;
+  }  
+
+  #currentStep{
+  margin-left: 10px;
+}
+
+button, #skip{
+  width: 100px;
+  height: 40px;
+  font-size:15px;
+}
+
+#skip span{
+  font-size:17px;
+}
+
+#finishContainer .titlu{
+  font-size: 30px;
+}
+
+#finishContainer .scor{
+  font-size: 20px;
+}
+
+.footer {
+  flex-wrap: wrap;
+  gap: 20%
+}
+
+.ig {
+  width: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ig img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact span:nth-child(1) {
+  font-size: 10px;
+}
+
+.contact span:nth-child(2) {
+  font-size: 10px;
+}
+
+.feedback span {
+  font-size: 10px; /* Adjusted font size for better readability on smaller screens */
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width:1100px){
+  button, #skip{
+    width: 140px;
+    height: 40px;
+    font-size:15px;
+  }
+
+  #skip span{
+    font-size:19px;
+  }
+}
